@@ -1,0 +1,5345 @@
+{
+  "from": "2022-03-30T07:28:00Z",
+  "to": "2022-03-30T07:29:00Z",
+  "structure": {
+    "id": "{{sample-device-id}}",
+    "name": "T1_Check-In",
+    "data_type": "COLLECTION",
+    "kpi_type": "place",
+    "kpi_structure": [
+      {
+        "id": "8181065c-0728-4cca-9d6c-65cef4e4fc3f",
+        "name": "MS_Zone_Counter162",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "a2d788f7-2ded-4e7e-bb75-235c01223333",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "c2b68f7f-a6aa-4465-a008-7ea70ce88bf4",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "058ad167-590c-43b4-9fab-c3ac6b2e3a9f",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "0a473019-7718-4fb8-b53f-4f91918b757c",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "122f5d6c-3d9b-4dce-a83c-f71a743a9d1f",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "41aeca88-10ca-481a-a775-3e0652c29f08",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "4aa15879-716a-460a-9c0b-c40a753729b5",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "705e510b-73db-4fb7-9c93-736e18c91ff0",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "73ac84b7-c4ba-49f2-9fb0-f3a642358ebf",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "7678351f-fe55-4faa-8aaf-24d954bb2d3c",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "81e733e5-5ce0-4050-8b9e-02eb9ed3e3c5",
+        "name": "MS_Zone_Counter186",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "89795edf-11f1-48f1-8d08-cdf817aad9f3",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "a67746b2-71f2-4370-944c-48ae89a2afae",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "a862b6e1-f7e7-4ed6-a8dc-a5f4b1522a23",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "bb3c0862-3ec2-4973-b6af-84fe08c806f3",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "dadfe760-8aa3-46ba-b716-059c34b2db53",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "ddae8a18-a0fb-4de7-9124-1b299f217687",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "ebeed868-4f6b-43f7-8cfc-b2f19c7f1d59",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "02f56057-6540-462e-b96b-1a222d85a1e1",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "0bd4d2d1-d8d1-4963-a535-d8551cb96405",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "33418fa4-83f7-4841-8508-5189808c0075",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "8996d424-8bb6-4500-b178-a9631e5def7b",
+        "name": "MS_Zone_Counter192",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "90c5e0e8-6035-418a-81cd-83d8b0af5fc8",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "a88d5637-c1b0-4dc5-9bb5-d1e90efdc425",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "ee2d0557-f592-4e89-9a77-d6acf867c7e6",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "24379ac4-a4d6-41f3-aad0-1bd7879862b1",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "28ea03fe-e06c-4660-b5da-0ede0cbaa5e4",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "3469fdef-0ff4-4ffa-92fd-a34ede204a90",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "45f5417d-4de6-4695-ad26-008f1ef811b2",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "5daf994d-2801-48d0-b23b-c3ec99f18c4d",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "678db8e6-cd88-4f0e-a7ba-d79af0e4ad48",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "7981d48e-f2d6-4698-a425-e20c7d4b72ad",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "91102c0d-6c28-4eb0-bdbc-408011d8de76",
+        "name": "MS_Zone_Counter187",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "805d9a66-16f1-4ba0-a9f4-a1dee04ac904",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "9cf1757d-7f7c-4e20-b1e5-8d027b98e635",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "9ed54062-0a43-4661-a1e3-d6c0c5da9483",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "ae4a860f-fb4e-4c0a-bd45-8ddd33a6d2a3",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "b182714b-48ed-45a9-b953-170135ed0041",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "c757094d-b7a2-4fb8-9740-be92b68dabdb",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "cc1e5851-817e-439f-b2c7-aa86c3c9a096",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "d2e12593-ce36-4e2a-a128-75f05c4fd31f",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "d59d0cb8-ad94-4cf9-96c6-2f175f576e13",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "15113385-a182-48ea-8593-e87cba23b9e5",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "96143f8e-c35e-4ffa-8ccf-f7f81b8c1467",
+        "name": "MS_Zone_Counter170",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "836fa541-3abb-4d56-9146-732e8dfebc94",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "86b6c3dd-3bc0-42d6-a36a-6a8388537a12",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "999e03b2-8531-4211-a305-d2ecac8421e5",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "bda8cac0-439e-450c-b30a-5425b0952fcd",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "e6435779-f14d-419a-8c36-9d7d58daac67",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "f69f8a23-2342-47cc-8ae9-97bd9cf16a30",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "f8d9dabb-4216-4e45-bca6-758415fa237d",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "11dcc044-e474-4926-ac2c-6fe892725c53",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "2ed8aeb9-ab4f-4882-89b8-d56aed4279da",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "46829c6f-c1ad-42e9-92a4-98d2a4cbf8d1",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "9764201b-7ae4-4cd5-9531-42b5723fb3f4",
+        "name": "MS_Zone_Counter165",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "1763c9ca-a5c7-4e08-a58f-7b9ddd8977f1",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "2b9baa73-1e0f-40ab-9b18-6d0c15e8e81b",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "3edf2b62-a257-4fad-8e97-fce5bd5fcffb",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4a90de20-aa7d-4a4f-bb0b-ad1dbd2be31a",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "4caff0db-51a1-4196-ad0f-d67e2b3f795c",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "52c6b5df-4cd7-44f0-8803-278bc0ec65d5",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "5d8bef65-b42b-49d3-9373-79c95599ff40",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "6d543a03-9eb8-4f0b-abc3-89aa6e511cea",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "7e32003d-1ee6-459a-94d9-df5c9ddb5c8e",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "7eee8f90-fe5c-4617-9779-6ff965725e54",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "a01383e0-421b-47ac-b442-81ff1e01e0f8",
+        "name": "MS_Zone_Counter159",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "a3e34e6a-f314-4f62-99fb-9839e31f5da8",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "bad9d6f7-b67d-44a6-8f0d-8cadff9c9214",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "bfde9795-812a-4380-884f-ea9a51c9d685",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "c74c6643-24c8-475b-8f74-ad5eb0d16029",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "d5aa63f0-cd7e-4018-88c0-00973d5c7fee",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "11b49871-7a2b-4768-bd55-1abaeb40593e",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "1c84eed8-45da-4e60-aa0a-690ed09df649",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "30f2ac22-fc79-491b-b9d7-92939ef5f971",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "32f55a86-bb80-44b6-bdce-4289e3b77741",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "58dd6f6b-8ed7-48d3-a33e-c76d1c24b7db",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "a5076b56-72c2-4b85-b882-46c5652030c2",
+        "name": "MS_Zone_Counter157",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "90fa8bb7-29d1-4224-b6cd-41def5f9410a",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "a0ca586d-d783-4fd8-974e-070558b5a777",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "ca212e07-e853-4b4c-b0fb-b9f6de2a80e0",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "0a031b9b-73f8-4904-8a8f-30fc20aecc11",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "0ae165f9-f581-43a4-a839-ddaabd1c9d7f",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "0bda0df3-48bd-4993-8131-2b928d706a02",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "2ff4781d-76d2-48e7-9876-963a5f9c4fb2",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "414924ed-5168-4ab8-85dc-edce5151698e",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4bb33794-3429-4a37-a4bc-3d14db80f56a",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "6b4f5360-b665-4a2f-a7fd-1d3af8736bf4",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "b0d1de54-afbd-4ee3-ac78-5b960d797e01",
+        "name": "MS_Zone_Counter193",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "986926cc-6cbb-4432-91ee-f370df57b6ae",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "a0176659-53d9-4cbb-965f-1328f4586cbe",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "af6f234f-6b9c-41e1-b137-ddd264ef085f",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "b5a906fd-c33f-43eb-b66d-6b3c8525d570",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "c6c46853-733d-4cc0-b65c-acdf64482c57",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "de23c366-6ffb-43f5-9921-5d0c5f7d8316",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "1afe18fb-6387-4c3a-a2c2-f363aefdb523",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "3bb87381-2c4b-449a-815a-57e8ce32bd77",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "3c39a08a-c410-4eca-81c9-1b8bfce75f98",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "40bfd1d0-2595-4e84-bd3e-ca2a23b06742",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "b5a245de-b0dd-41b1-8126-03947faa75ce",
+        "name": "MS_Zone_Counter167",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "8d657052-220f-4311-8c49-20b270edb40f",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "b177886d-0ad1-4c3e-8365-801b531b868b",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "e342a141-4d45-46ae-82ba-d92368346b2e",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "f4af6dd1-302c-4179-89d3-7f6ec9731807",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "08173a56-2646-4400-9665-583245addf0d",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "107f3397-eef6-4b8e-b407-17bebf792261",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "37a7e5a6-ad61-4558-b1d2-94ebf0fab0ea",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "5f4babcb-83e8-40fb-9086-c51787016f31",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "675c5a9f-ec14-4982-acad-a23224f0b156",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "6cb416e0-ae30-44e3-b129-2fd8c8b66456",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "b8b5a469-b6f7-451d-b04c-ec9316566ea3",
+        "name": "MS_Zone_Counter161",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "8d3346c7-8d6d-4796-add1-43cce3e025fc",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "995563f7-d10d-4fcf-a1aa-1c9f7197bb34",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "bd6f93e4-42a5-40a9-a08e-8c35a28af7ce",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "cf27a535-cdd8-4b61-8bab-ed2b17e269bd",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "d6af3122-df14-467d-b8ac-d9c32f24d5ac",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "fe554c70-1a74-4de1-a671-8efe7263cd98",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "29642c19-2cac-43d4-92af-50cd91a62ac4",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "2d015e16-99d6-447d-95d3-5097aa398bfe",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "56899bed-4325-48b2-a567-58652e90cf2f",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "7c79004c-74d6-428f-90df-291f2db39b2c",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "bce7d7b1-949d-4a45-a4cc-b601b76dee01",
+        "name": "MS_Zone_Counter166",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "8f4194f3-a671-4973-910d-3c4a35184b4d",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "9a1644d3-59a2-48a9-8c05-51f6c3e52cbd",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "a4b3fd06-1447-45ce-86b8-70c5f76cc4f7",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "defb048d-c312-4467-a4c6-e1d5596bffe1",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "f76ba899-92c3-4687-a68f-ce11ff3015d2",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "f8132751-a639-488b-a579-2e357794d8de",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "0f9f4e02-ea64-4eed-b385-9b1e75e28776",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "47136761-d1f1-4c49-b9ad-a8eb73ff4b39",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "49775caf-935f-4e87-a1df-b353eba4c3b0",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "7320b55f-37b6-4266-8910-8a0d1429cd95",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "bdecbb90-746b-43ca-905d-4e3a82923c57",
+        "name": "MS_Zone_Counter153",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "aae7907c-bf57-49bf-a47e-2310345a930b",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "bdcdea26-aecb-450a-b862-db699d98da8a",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "dbdbde6d-b845-42f0-ac4b-1d7cab7f1659",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "f5b8c16a-9476-4d08-bf02-afd5c4e3f426",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "f7296a61-0669-457a-89d0-1e5f59d1df82",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "fdc9e339-4717-46c2-afc5-27b5343c720f",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "1f6d9f33-170f-4fa6-8682-918721e5294d",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "33af53bc-9f47-465f-a55c-d41acd56612e",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "4bcdf6bb-0ab2-42bc-982f-b1e3f98a1c06",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "77b11e28-7469-4a7f-9e9e-35b7248eb2cc",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "c01fe687-8a5c-4f15-8d57-6c3ca5d70b18",
+        "name": "MS_Zone_Counter168",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "8778d797-c406-473d-a9e6-707b80cc0df0",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "9b8ca3db-a747-4328-a082-03c12db81696",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "ae65e664-7110-4cb1-9af9-5cd817b70e98",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "cdfefdc6-a84e-4e31-9c31-9003049b92c3",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "00ccc91b-58bb-4c6d-859b-83370ee36e01",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "1961a90a-3e66-4102-aa67-98ae483d5942",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "3e41e163-eab7-4c1a-90f5-fea415969251",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "3f2f83ba-a793-48c1-a266-e694173f378c",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "533855cc-d6b9-4266-a43e-1dc8bab4ac21",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "6c52793e-ef5d-4b7d-8f7a-f509cf1bb049",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "d23f84a8-0fd1-47c9-8c30-412e227e59d5",
+        "name": "SpaceUtilization",
+        "data_type": "INTEGER",
+        "kpi_type": "SpaceUtilization"
+      },
+      {
+        "id": "dac58247-7bd1-49f3-bc43-081545f62580",
+        "name": "MS_Zone_Counter175",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "96895870-a813-4a20-b7ca-7b1e4f0e249c",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "992d0394-7a98-416f-940d-3cdbd5a121f0",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "dbee78ab-7f81-4bd4-8b62-de6f94750d91",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "de14e37a-79ed-4c16-a5ab-58ebc1c18557",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "02f72cd2-a33f-4c88-8e74-b7fdd0f0b9b4",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "4312c4d6-1ca9-41d8-870b-6da7f802dcbf",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "5df62259-5267-4231-9e68-7170296d5978",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "6be50247-5b1e-4f67-9417-b5657fb5a8cc",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "72deb545-bad1-4d4c-8ac9-d46ae13da24a",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "755b7c86-ff45-4485-8214-2a1d1dee3166",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "e9b61306-5edd-41bb-a5be-748a438fb689",
+        "name": "MS_Zone_Counter173",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "9a4b6241-87aa-44e7-8e43-e43934be1fc6",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "b3f76bfa-2d66-4674-843c-a475c51d4422",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "fe78039e-ee64-4db0-8e8a-8e90e5027878",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "108a31bf-c3ca-4d48-9d76-a5099f136d52",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "32eb68e5-4669-4fee-a259-806a85ac69e4",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "4d442f98-772b-47e6-acbb-116f2e5216d0",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "4f788fda-cef3-4009-a7a5-126be705c322",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "4f9c9b8a-6f82-4ff9-a0e6-8d51885a6838",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "5af507b3-aa0d-4988-b1b7-6131bc518d99",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "73515ae0-5362-42aa-9a52-2f5a3b3e9ed6",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "eab2fef4-6664-449c-b4ed-a3d27e92a5d8",
+        "name": "MS_Zone_Counter151",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "a26312b4-36a4-4b6d-8727-04d10cfdff7c",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "bf7a41ce-9e8f-467c-a7ef-24f380c05db5",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "e0b90254-838d-4bd4-a8bb-5471bcef1401",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "e4c796e6-2e25-4fc1-81c9-345ed90d9698",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "029e2be5-6469-4bf9-9de4-f6bd3340e031",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "151ba04d-9868-4672-b591-ce9836bbc03c",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "49db86f8-ac41-436a-b7d3-03c6d1f1312f",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4ff8b2df-a151-4cf1-af3c-96206c930dbf",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "6750b8dd-8b27-456e-8b90-572323243651",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "7f3308c5-d264-48a4-9c97-f1587b31c4e0",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "ecbbd594-22c2-4f01-aa1d-b5e17afb17b2",
+        "name": "MS_Zone_Counter155",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "8d4c2692-7cdd-4e62-bdaf-5252df849cff",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow",
+            "has_history": true
+          },
+          {
+            "id": "a0c4f12c-70f2-4417-9213-d931eced9281",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "b1096f64-a0ec-444b-8db2-39aec97e3477",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "d6f79e0e-2df9-4868-9dcd-662129a1a003",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "e1bc6630-1184-4cfe-a836-1aac56ccf10c",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "fd67150a-9855-4644-b816-47b74fe40188",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "075d54a2-386b-4d17-bf7a-35a215ba75fd",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "1624ae14-899a-4ecc-b262-35feaf315b35",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "3990a0ba-5602-4a1b-b069-9390de29b411",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "468fa3af-ccd5-4795-a763-aa5c45483d71",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "f4d10ffb-8ccc-4b7a-b73e-23a89b727e58",
+        "name": "MS_Zone_Counter152",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "9fc4f16e-ccfe-42f2-a606-c40cdb2a0794",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "bd20c87a-d601-4135-91d1-b24f4e4edd82",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "c545f52e-a5ba-4b99-88c6-85efcb485f75",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "d8adb078-1c0d-44d1-bf3b-d2d56391c935",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "f347a9ef-bfca-46a7-9755-792060b91999",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "11fbfaa5-5dbb-490b-a766-ab60e238f28d",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "21d24f26-2be6-4459-b3eb-1f79de62542c",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "2474d8d9-71ee-41c3-a42b-914c28c9f686",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "2e0f022d-8471-460d-afd2-9f3e8607c8ef",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "623a626f-e087-42da-ac55-2dccef56e969",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "ffc4a508-0258-40d8-842b-249187b01d73",
+        "name": "MS_Zone_Counter188",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "8f5c974e-40ff-411e-b75a-fa6471e3fd88",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "b61fd79b-132d-469d-b612-6991e147b632",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "c29e040f-a2e3-4638-9255-c7e1136db248",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "d8a884c4-0370-4fd3-ba51-dc3de5838151",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "f986a001-5615-4887-b9e2-316e4ade8ebc",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "042cad96-517e-4917-a27d-bb039f255e85",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "10fef82e-ae9a-49e1-9941-96fe92009d81",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "26726896-3703-42ef-9af1-d583b809dfbc",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "48fbfa60-d3f9-4a75-9a90-578c71c2874f",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "5a74d551-9031-47b3-8c24-fdffec70d42c",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "026045a7-cee6-4fe6-94d3-3723cbac0abc",
+        "name": "MS_Zone_Counter158",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "82803461-f66f-4ae3-a535-86f3244f37c5",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "970a9398-5a36-4191-b649-8ecdf31e656d",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "b5077419-965d-4165-8537-848e030e96bd",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "b7653675-40c9-432c-82cb-2dce2c5c900c",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "daca0bb1-4965-4d16-8efa-b6ff80ee8719",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "ea5d48cd-4bc8-4f65-8b3b-9961118147d6",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "ead31730-1c9f-44d1-94d8-c64a1a761c64",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "1e558f43-8859-4a93-9215-f4197629e30b",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "34bb27c4-7f41-4cd9-8a29-f8621ea0ee71",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "658849fe-651c-4c7d-acf6-ab7b986e9270",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "0600c843-bc15-45c2-ab2e-b3772b6d2f29",
+        "name": "MS_Zone_Counter182",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "91d292c0-6532-423f-9fd5-993e51483ace",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "9d827495-ab09-4035-9c62-27d3653bea90",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "dccc5938-df1b-4aa9-9c83-7ae3a76ba74e",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "e0fe8201-ffb4-4e91-a44e-8091834f7121",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "f0a817f2-f5f1-4b38-8ab6-da2442a1e78f",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "07f88956-71cf-489d-88fb-4538050b82b3",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "18e8b3c8-9f84-438f-a4c4-4f1523237067",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4440aa27-f55c-4770-8176-a63de1a9cde1",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "4fac1e09-4f7c-4108-88d0-8bf0f75b3797",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "53380568-a532-47c9-97ea-754e085b3392",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "10f43b90-0761-4ac2-9baa-a0786e48183d",
+        "name": "MS_Zone_Counter181",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "c5e97585-6d6c-49a1-91ce-8a3f1fec50a6",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "d77b3621-5638-49e6-9f4d-f4d890c12b40",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "dc565cea-7c63-4585-ba50-f3d430d8ba84",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "dfc07a72-95ab-451d-be9e-518d35a680e1",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "086a9e88-5d1b-4909-a8ec-00fbb4634dd2",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "43ffd7d0-8611-4c21-8d46-936b2d4184c5",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "47648c7b-b35e-4e71-9e10-b790c6f0a834",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "5cfbbb3f-ce0f-4a48-ace2-68c0e063be0c",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "724e41aa-cd05-489d-95ae-da15a2abe935",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "7a3abdd8-be8a-46be-a273-f442645645ba",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "162ff602-12f8-4cfb-b874-36c69926e097",
+        "name": "MS_Zone_Counter164",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "82906fa8-c81d-4c28-b208-2a0ae69044b8",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "a1c35bb3-52a5-4d31-b683-a0f5b440514a",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "aff85602-32da-4120-93e2-f08a352f70c9",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "e27e5928-021f-43c4-8fcb-48620eb32344",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "fc7f9870-a261-4efc-a857-794cced9bc4e",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "41c1d4bd-0d0d-49eb-9c21-e9577023bd33",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "478559d4-969b-4fc2-b0bf-c9a2519431df",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "68dcbd0a-cb00-41e2-bf62-3ee7d3a91f79",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "6a1ef986-7aaa-41ed-8b79-f7b17e963338",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "71059c61-fd02-433c-ba4f-df46dfa6a8bf",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "1c830e28-71f7-484a-b96f-6191c3c02a36",
+        "name": "MS_Zone_Counter160",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "aa3cdafb-5358-4c8d-a03b-74a540d73724",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "ac9c31bf-af81-4d83-9c6a-3117b68d9fa6",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "afea5f57-4305-4fde-b3d8-c66fa7231f75",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "d938273b-fff4-43f6-afba-c0e16e133ee0",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "e7b23fb2-808a-4eac-8100-e763443b2593",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "f1b2bbbd-18f7-49cc-8cca-ce3ea7974c84",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "1b1b5e5c-b938-4701-925e-258a3c6cef56",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "40d5744c-f01a-4406-89ca-64aa6c2bac92",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "4db781b0-70d3-4cb3-8c9c-d0a55bd6af17",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "64dc66c5-a282-4164-b898-7f76499841fb",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "2025f0e9-d058-45a9-a7f3-20eac5121471",
+        "name": "DiagErrorCode",
+        "data_type": "INTEGER",
+        "kpi_type": "DiagErrorCode"
+      },
+      {
+        "id": "247efd14-04a7-4a2c-91fa-589c5c7a1e65",
+        "name": "MS_Zone_Counter185",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "b0b89ef8-60fd-4f13-ae10-0191a73adf67",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "b907413e-6233-4fa0-8ccb-f6783f50c23e",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "d4dbbbdc-ac1c-4eec-9364-058209b4c0db",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "e0819ef3-9537-44bf-93c2-ddc878724c7a",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "e7368d63-3340-4fdf-aaea-98e0bef4c4d6",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "e7d6c5ab-cc70-460f-861c-5343f54985aa",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "f48ce7c4-6fe0-4592-925d-360aa49fbee0",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "0cc09856-4899-4fe1-a6e3-d6eef454dffa",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "14760983-dd57-4f92-a29c-dd75910d4614",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "43db4c76-8f37-4f3f-85af-9372a4ebe479",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "27fcb280-0d8d-4e3d-ad6d-7e2ac8aada76",
+        "name": "MS_Zone_Counter195",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "888bc063-30da-4284-b011-8ae07fa2c2fe",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "9a4abebb-65b5-4b27-a3d7-4c1f8029f94d",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "a7b5538b-4b65-4e24-b846-e581e03a7f9b",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "d723acac-af81-4544-a926-b6695f1e00bf",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "db3b9d8d-0a87-43e4-ad03-4743788fe103",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "05036682-bde3-46d2-9d0e-5fc8e7c8b246",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "0dc4ad81-1864-4c9c-bc96-f7bcbceec5c0",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "2faad0e8-019c-4695-95d4-8dd1c165c434",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "53a36a1c-5772-400c-b529-c11831008a8a",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "57831091-5580-4095-a260-7f7a840b5533",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "2c6a17ad-249a-4f54-ab24-0b8b7693498f",
+        "name": "MS_Zone_Counter189",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "846b9188-333b-4b05-aee9-530b06c6c621",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "8f6d5d4f-f743-4529-8488-dd6ebddcde38",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "c3115e73-1771-4e2b-a220-524cd0d5ff7f",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "c8d344d9-5ac1-4c5e-b896-2e1594d39127",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "d8bf6982-32f2-4681-a4e1-27fd174c052f",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "da298fab-4225-4ac6-bcfb-9491d0ad88c5",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "dcf7b372-f9a4-4727-92c9-73bb0e975e4e",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4ffe141b-5a64-4b99-8067-89a16fc52f8d",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "6c276405-59ba-4162-95f7-02c67ece0bcd",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "73deab6d-e4c8-4c08-ac83-ec8b14c14519",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "3c569b39-3d02-40ce-9da3-9c0cf4db4206",
+        "name": "MS_Zone_Counter178",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "c76946f1-af2d-4e22-8e17-68e83d8bd9e0",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "cbb4ec07-251d-461d-80e1-c66edd7a199e",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "e6fbe05d-d71c-419f-b49a-eda02fc009bc",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "0b13fac9-ec99-4cfb-b68e-b3850c856a30",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "11019895-6d51-4c9d-a9c6-cb4337f30243",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "18f3ddc7-6a57-4262-a537-1405d65fffa8",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "42d56d07-1eda-4e0c-af43-2f5fd8dab78b",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "52dcf1be-94f6-489a-a514-676d7595a500",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "63e98f89-2562-4daa-b7b5-efe62cfb0ab5",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "6a0ed827-5d17-41fa-8e9e-d11a9ae84336",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "4120b338-8b36-4ffd-b8fa-96fba5b96a15",
+        "name": "MS_Zone_Counter190",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "af51ea9a-6ea0-4444-965f-6fd5e06db0d1",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "c41064fa-86bb-4dfd-9472-0a043a1b9b82",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "fdb1931b-2b03-4c19-bf98-6b51335b3c61",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "108ab81d-4dfa-4a37-aa88-04c10e32d948",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "18db03ff-56c9-4331-b6b1-b19dbd5b1cf0",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "1cf018c5-8af3-4b51-813c-8de782d327e2",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "5eda7280-58ea-4ee6-83e8-6128d0610daa",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "66217a32-52a6-4984-a5f3-fdc238783d8f",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "6a3831dd-8f16-403b-bc8a-81f7e0e44230",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "745c2bea-7d06-4801-a25a-ce5bd5e74219",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "44843a94-3bed-4659-8acd-8149ae0ded44",
+        "name": "MS_Zone_Counter194",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "cd2c7a92-a194-432b-adce-4fea647c3039",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "d5571954-b902-4526-8090-89ca8a7f8ad0",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "e4d1797c-6a9c-42b8-8a52-b180f95a39ee",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "e4f2b071-6b5d-48c8-ab3f-c5f76dd6d86f",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "f6e10d26-5804-4c89-b29f-713334e6afcc",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "0183fef3-6d0f-4d0b-ad9f-ca30e282c50d",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "01d7e1c9-cf72-453f-8ead-da4df018a3a6",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "09f910fe-37fe-47ae-9061-6fc54063d9c4",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "1dc004aa-f288-47c8-a901-19855cd1c07b",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "524b2361-c94f-436e-8c75-318c62725f92",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "4edac595-353f-47a7-bb8b-9a2f4e5b39b5",
+        "name": "MS_Zone_Counter191",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "e4dfa2f3-f408-4a2d-ac78-c490a6719ff7",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "e5f23ad2-d329-4173-9270-a8e0c3e2ca2f",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "0e16609c-6142-4bb1-9311-cbc11f3826a4",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "18ca2d98-4d76-428f-9cde-e357a051c2ce",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "3bbc3959-d7dd-4f89-bcd4-6397af4d2795",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "485093cc-edb1-4cae-8c84-2457deb85645",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "58041d3f-50bb-4978-b288-6a628d135d2e",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "62760c22-bdd3-492d-b243-e57b1dbd07ed",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "6b7b43a7-a2af-47fd-893a-b7b75e895cb0",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "6c1b085d-3633-4061-9408-d8915c042c19",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "5009f286-31e2-47f2-931c-3dd464ddfd0c",
+        "name": "MS_Zone_Counter163",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "807adec6-0798-44f6-9804-7ff880cb7f9d",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "ca919539-daa8-4916-90c8-8300b1d11294",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "e76da730-53e0-44e1-8b33-11570fea1df0",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "ec0a8a65-a271-4d19-9037-6354cdb31df1",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "1ad2652e-86c0-49bb-9ccd-192650308013",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "1f7084ef-5dfc-403f-a2c6-378de426a914",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "30b19988-37a9-4302-99e7-4d26e5f896df",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "32924899-3524-4b1b-985a-547d5dfd40ce",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "59d7d9cd-bbb6-498e-a2a3-0e443a077e1a",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "7e1760e8-6689-4f06-9d81-cee9e5913343",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "5b40c826-ae2a-42f8-a3cc-b99ec5e33e5a",
+        "name": "MS_Zone_Counter174",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "972b1765-0ce4-480b-937d-b5bc293caecb",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "a52fc8aa-8401-435e-90d0-a6a29c68e703",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "fda08c09-094d-4a55-b2dd-7745fdb0ac32",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "fe5b1579-0f1a-4a2b-a249-c9146cad2284",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "0b90a36b-eed5-4518-b3c8-eef8c6714d4f",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "14c23ac2-5987-4786-ad66-a003659fe2c8",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "27cad415-4e20-4e91-9d3d-6386a1ef7e6d",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "3f3250e7-a7b2-417e-a2ca-53726d455e2f",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "5d65645b-13bb-4feb-bd27-0c51836c4798",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "6ce477a7-4422-48c9-88ae-c779b512866f",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "60b32ca8-fe1b-4f97-955c-ddbebbf895b9",
+        "name": "TotalPax",
+        "data_type": "FILL_LEVEL",
+        "kpi_type": "TotalPax",
+        "unit": "PAX"
+      },
+      {
+        "id": "61391555-b2ac-4c78-b095-1ba0ff818386",
+        "name": "MS_Zone_Counter156",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "c1296b93-db53-453b-a9b4-887cc3b241c9",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "0993cc22-63fe-45c4-b19c-fb190f528bed",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "1c0dd317-4e0d-4e08-88e6-1982bf1a089d",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "261bd400-9bc9-4754-92b2-f7c0a98e07ec",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "2f6d37e5-a3e9-46bc-a5a0-871f63204373",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4950b2f9-4d7a-460f-9096-8711e99a4098",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "4d6fd74f-42f4-4a6a-9ce4-7e508539f834",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "5d6b0304-b147-47c6-98f7-4533dda68025",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "5efd66da-8680-4281-bf4b-5f26e7e66767",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "77910036-e6d8-4853-aed9-266cc9c5aa6a",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "63504817-1b16-42a0-8159-fc730722dc3b",
+        "name": "MS_Zone_Counter154",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "b5834045-0069-4f52-a9dd-790d46647760",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "ba8aa783-bf84-4104-8df8-bbf1480bd227",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "01bb7731-b346-4856-a253-8c65043c7cf3",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "1037bb70-663e-435d-8454-155c1e6a787a",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "1c73be0e-1f93-489d-a18a-66f73f9a120e",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "43f836c6-6f70-4255-99fa-5bb60a3bbb8a",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "4b1c9b5e-d670-44c7-8f7d-177757d1944f",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "60320f62-e565-4545-a980-f7cc20115426",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "6819066f-e672-4330-8ceb-bf237de4c40a",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "75c76678-0f47-404e-82f4-653c73ace720",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "6367854a-037c-4f1b-b015-f5475c0acdeb",
+        "name": "MS_Zone_Counter177",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "b6e9fe5d-c824-46fc-a171-bca94ca5d74d",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "d564f482-f8c4-4237-b4ce-7f02b4400ede",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "e6afeb3e-5882-46ca-94bc-4fe87788a579",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "006da257-e90b-4db3-9a30-62a33003fd2c",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "037a8db9-ce0e-437b-b0ba-509842477b6f",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "05e61d98-855f-479c-a35c-0fb5a0187282",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "085b1cb4-7b31-406d-85fa-94c26f1bf6f3",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "137a7511-038a-419c-b555-4d242727afad",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "786fd02d-94c3-4b8b-9d28-b881bf82a243",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "7b4edd78-37d6-4c94-9a15-cc5c9bb0eb13",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "65899dc0-4679-425c-b2a3-c56215ce775b",
+        "name": "MS_Zone_Counter172",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "9b0f75da-397a-45b4-a137-ac621cc0df68",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "a2a80aeb-15c4-4784-a089-6013b3d04703",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "a6107e2e-7dcf-4895-ae00-0214b09c5e1b",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "d2bfee89-563b-4035-91ac-5174e881f00e",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "df2a5784-cc6c-4d7e-8ff1-7a60fcad9194",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "fb73b622-b4b4-4b96-aaf4-68a271ff8b53",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "3b025873-dc6e-4a17-9aaa-b0da3662083f",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "44cb63b4-acbe-4586-a644-b053c7c84af3",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "6fda8bf4-8a28-423a-9283-b6b84c1c6d7c",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "7cb4baae-6e82-4a94-9ce7-8a89515ff0ad",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "685f17cc-9ba2-49d0-a8f6-3effdb7873b5",
+        "name": "MS_Zone_Counter196",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "866a7adf-9fea-4de5-825a-26c9d7daedd7",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "ba9e8d8e-dfbc-43a8-87da-6b97edeac736",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "c1c2fa92-7852-4368-b9d5-a2802f888663",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "c89c60a1-4326-4fed-9b95-20ab33a6cd1b",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "f38dd3aa-5292-4b97-8465-e6894b66948d",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "1a01401d-c793-40fe-b3d2-baf82aeaff8e",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "2b29a939-8ba1-404d-9cf2-d41ff7d3eb5a",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "3d1567a3-91db-4962-a57d-851a939428aa",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "5921f039-c99a-4a3b-b38a-380fe33da3ab",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "68e55a49-7735-45f0-9701-04b8dcdca635",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "69665fa4-42ef-4459-ad91-e6cd1647b2a5",
+        "name": "MS_Zone_Counter184",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "97eaf49b-cc7a-488a-aac4-2fb00c2f53ec",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "9bd790ba-2311-4bba-97e5-231490a5689d",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "ada30efa-e93a-4431-a69f-6fb970ff0f4b",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "cfc0f25c-eeb5-4a8e-ab02-f593767b06e8",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "194422c4-4746-49bd-b353-a7475efabdc9",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "21241f50-fae1-4963-8b3f-7188be8e6438",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "5bd53d0f-150a-44ac-bf20-b8ed9c9f9b95",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "6b88e885-446a-458b-adfb-16ebeb1cf66e",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "74236f98-0a4b-4595-92ab-51cee689e8df",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "7d850371-ca6c-434b-be6a-dca6e227bbd1",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "6a50a157-ec55-43e4-bfe9-a1e418e2a39d",
+        "name": "MS_Zone_Counter171",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "b68e88c3-137c-482a-9db9-3c8179212a37",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "de2f691f-c872-47ae-a3a3-a4d34b9668a5",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "e2788abe-14bd-4b66-93ff-0c9cd41fe41b",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "01e7d96d-bd4d-407f-852a-31d5c07aca16",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "1237efe0-befa-49b1-b6c0-16690a836f4f",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "169923b1-9fb4-49c0-8c99-f01b9990ea2e",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "23b28926-4944-4e2a-ac9c-dc7ac842582b",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "389829c0-f981-4bb8-8cfe-e5b9a291fe59",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "42ed29c1-485b-4791-91bb-f3b0d645c6e3",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "4dd2041b-7dac-4039-9e4f-b06ae07f4a37",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "6b3b9b8b-2abd-4e62-a334-fa79bd088bc7",
+        "name": "MS_Zone_Counter179",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "b86cdb81-336a-4bd1-bfa5-2badf75a1f89",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "d8ab8706-c8e4-454c-96ca-af848e753826",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "f7ee2708-43d4-431e-ae97-c557e4b89642",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "fa07c87d-1bfd-4525-96ac-44d766a54975",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "28196fd3-a177-4762-a203-2d53291ae784",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "2a4ec030-9793-47a4-8b04-680bfff027c2",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4a2485c6-b1bb-486e-9ed2-69421516dfe7",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4a457c3f-4b1d-4cd8-b11c-3133da754721",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "61c75a8d-adbb-4534-b5d5-47bc0fe292a7",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "6750d286-66c9-4a9d-bba4-74a2646314fe",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "6e3d7322-5234-4258-a6a7-6ccf2d43c575",
+        "name": "MS_Zone_Counter183",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "8149c076-1e8f-4978-b65c-4bb41bf2e3fd",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "820b753e-b9ff-471b-89eb-48ba1e4e7d46",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "b213a201-f528-41a8-a6d9-addef5010440",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "b31e321f-8116-4902-b88e-1bf9c39cd7f0",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "bc620e47-37b9-4b06-ad71-2cd102d8d9fe",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "e30ed812-02a1-4c21-af0c-5daadbcbc6c2",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "ea10caeb-a8ce-486c-9962-01273e0bc534",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "fc82b23a-237e-4bee-9b5e-76f2979a5485",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "3197301c-91a2-4483-ab6e-5b919d7f7b0d",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "49096f12-a0b4-4b75-ae78-9b0458580a71",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "6ffda23d-2800-4e99-a3cc-0dc652cd0df5",
+        "name": "MS_Zone_Counter180",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "8470782e-c13e-4352-9cb5-bf3a28b9ae20",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "89c5536d-5aad-4ec9-8e02-d7f937463ff0",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "909ed76b-5f7d-417c-bec5-3bd168224d1c",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "94a960aa-827d-43fd-878c-d950c7531ac3",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "bbb77be4-9aa2-4adc-a6e3-8862e307384b",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "c8e899db-ed6c-408b-9426-f238e6fef47a",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "1169cac2-8bf2-4ad3-8061-185d0a2a6f3b",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "45204b88-11d3-4a5e-be00-f2187d3dd6ea",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "7520638e-3322-4f01-bc65-fbd9b502e756",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "7bdd1d8b-7323-462b-be83-823afb1d1e6f",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "7358db61-b348-4e58-9fbd-8a6e6eaf448a",
+        "name": "MS_Zone_Counter176",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "84e807e5-8a21-4033-9135-56b32c4e7ebc",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "9cf8f2ff-f906-4450-a269-792114bd496f",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "9dbf586e-b5c2-4f59-90c7-02a7bdc01679",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "dede008d-7f75-404a-ad34-9611cae2e072",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "e2e13b19-09e7-450f-b4b9-99b5ddbf99a3",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "e2ff520e-d0bb-497d-be31-01894e5a20e1",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "3275763c-34dd-44dc-ac75-69e704c7fe71",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "4dad6218-0963-430d-8a2c-7e7044d19353",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "5e79def6-f533-4a0c-baba-69093ef3c680",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "6ea14e22-9950-490a-bea7-c114bdfe2877",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "7c3a51e3-5141-41a2-be48-05dd63fecf40",
+        "name": "MS_Zone_Counter169",
+        "data_type": "COLLECTION",
+        "kpi_type": "Desk",
+        "kpi_structure": [
+          {
+            "id": "a1a95400-6074-48a6-b338-cd6281705a3c",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "ac08d118-e40b-4666-b216-26fb9da0c05c",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "b132b15d-073e-4516-b249-a8b4b5d2cc5a",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "d88abab9-f23b-455d-9208-fee50393eb4a",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "ff47e992-b4f1-438e-9d11-6ac634a41e27",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "250bfe82-db99-4406-aa81-f2c22aa6be6f",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "3477f128-16c1-4df5-885a-f371468075cd",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "34f3926e-388e-47be-a032-8e107db200e9",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "4bd7d758-6f08-47ea-a59b-6e21419bca37",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "4ffce71b-2f8d-4922-91a1-78c895e275d6",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          }
+        ],
+        "has_history": true
+      },
+      {
+        "id": "90f89ca9-01e5-4b3c-99e5-1195091ab6aa",
+        "data_type": "COLLECTION",
+        "kpi_type": "Queue",
+        "kpi_structure": [
+          {
+            "id": "249ce473-4ac3-4a30-9649-099202599ed1",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "93252673-6e08-45dd-b510-b7392e85d9f1",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "49627c39-e379-420a-b115-6fa720908478",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "068fb05b-aa18-405b-ac0f-853cc9e94f38",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "9245ae3a-3b61-4b3b-83a5-efe3e9b2353a",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "8d03e256-0a54-4865-97f2-5aa40bd521d6",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "bd13622a-4316-40e7-95c7-41a8ae9fc18c",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "b3e8abc7-15a5-4df7-b00d-c687a17b870a",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "ea525e3a-49b5-437d-90f2-d86d23f51138",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "176546cb-ffa8-42ee-8549-2e6e47b57e49",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "52bd7bc9-a0cb-402e-9379-eba55279e429",
+            "name": "OpenLines",
+            "data_type": "INTEGER",
+            "kpi_type": "OpenLines",
+            "dynamic": true
+          }
+        ],
+        "dynamic": true
+      },
+      {
+        "id": "fda3ff15-78f4-4014-9e7c-e984b1076c0d",
+        "data_type": "COLLECTION",
+        "kpi_type": "Queue",
+        "kpi_structure": [
+          {
+            "id": "21471299-4dea-4a47-8684-9dc3c9a4153e",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "a4acaead-7c65-4f96-8130-6f6f33736d0a",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "2be57aca-dc67-404a-8b23-25f3b77e3ba8",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "89e2ce41-3103-4f66-aa65-ac2f936e759d",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "d251009c-6173-4e6e-a7ab-ff89635d121c",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "8d76c446-8954-4523-9128-8fb1ad83d7e7",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "b3af0785-8984-4b60-a9de-8653a155fa88",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "e2d967e8-ea56-4185-8914-14bf5a836343",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "4001c14b-e98f-4b00-a95d-d01b2e6a951a",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "e2e9d859-d315-457a-9a9b-26696971bbf8",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "2a99c511-f65c-4c69-9db5-1e6fd9758050",
+            "name": "OpenLines",
+            "data_type": "INTEGER",
+            "kpi_type": "OpenLines",
+            "dynamic": true
+          }
+        ],
+        "dynamic": true
+      },
+      {
+        "id": "563510e0-4db3-4edd-8ed5-960f0881b969",
+        "data_type": "COLLECTION",
+        "kpi_type": "Queue",
+        "kpi_structure": [
+          {
+            "id": "0523848f-eac7-4e0e-b8a9-c5d8250dd7d2",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "4092a2c5-106a-4b8c-bf44-e8d87cf106c1",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "857d8b7c-b35a-40ac-82d3-ba327c3e3a8b",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "45e33d3c-babf-460c-bcc5-e7af59df27c4",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "eff6a2c7-f9ec-4922-8812-8d36b6972b4b",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "31b0116c-f5d8-43d2-9c0b-864a6c7d7c59",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "dbd50cb6-26ef-4a6f-a27a-e63b5ea6289c",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "49e88320-4eb0-44c3-a213-8886a99257cb",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "35a87234-fefc-4f30-9730-d33302949566",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "15918b02-98da-4706-a714-cb027a302ede",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "30ecdffc-5529-4ed8-86ba-93966416b6cc",
+            "name": "OpenLines",
+            "data_type": "INTEGER",
+            "kpi_type": "OpenLines",
+            "dynamic": true
+          }
+        ],
+        "dynamic": true
+      },
+      {
+        "id": "71abe8fd-f983-47a3-be5d-bdbbb24b41c7",
+        "data_type": "COLLECTION",
+        "kpi_type": "Queue",
+        "kpi_structure": [
+          {
+            "id": "74e361bb-07f3-4f6d-b501-138d6a1f66eb",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "16d43694-dc9c-452f-bfd7-faef8c1035e0",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "fccb21bd-36d2-4c03-b53a-91a80c39065f",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "cc0d7161-276a-4466-ac2b-32e41e607cac",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "479eba7e-98e5-45df-a054-2e3275cade0a",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "5ec639f9-8a60-4b6c-b6c8-9e22a11e3a00",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "c7ea09d1-28c0-413d-9257-25420833a617",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "dae5c6fe-87be-4583-8ac9-c45c30b9cd13",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "0f1a8485-c49b-4761-95d1-7bd577499a73",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "644a8921-89a0-4a2d-9dfe-990c5b77a545",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "93400659-0602-4828-bf31-10b103c82ad0",
+            "name": "OpenLines",
+            "data_type": "INTEGER",
+            "kpi_type": "OpenLines",
+            "dynamic": true
+          }
+        ],
+        "dynamic": true
+      },
+      {
+        "id": "a1f47c01-ffa9-4427-9141-797dcaeffaba",
+        "data_type": "COLLECTION",
+        "kpi_type": "Queue",
+        "kpi_structure": [
+          {
+            "id": "c9fc5a52-fc17-4368-8d11-6cfe73e7aa6d",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "57bdd65e-98a8-46d6-9828-a3cab7d273b4",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "1c5dd5fb-ff98-4842-ac34-de5f39e5a9d3",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "9acbb9e2-4ee5-454e-8fe5-85fe1cc51e4f",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "832a6bca-92c5-4394-a20b-3cffaa430d55",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "5521edee-a6ee-4c46-b146-bb3e21826a01",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "b75bfc7f-51c3-4288-91f6-948f3285469f",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "b6453639-6b09-4353-867b-06c44f629c83",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "3bea09e8-84d5-4965-829b-cc8edb43fd87",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "7a578be4-86da-408f-95c0-e76c721c9485",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "5fa11cc9-cd45-4962-99b9-953cc1b1ce57",
+            "name": "OpenLines",
+            "data_type": "INTEGER",
+            "kpi_type": "OpenLines",
+            "dynamic": true
+          }
+        ],
+        "dynamic": true
+      },
+      {
+        "id": "2fbab93b-2efe-442e-ae03-4ef55c09586d",
+        "data_type": "COLLECTION",
+        "kpi_type": "Queue",
+        "kpi_structure": [
+          {
+            "id": "45ec130b-19ef-4dcd-bdcc-4e5a97f0e455",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "95941098-4aa7-4142-90b4-e2283da41527",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "5ef690fd-4989-4b0f-855c-bf3d6afabe6c",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "b3245bee-b191-491d-ba49-6e41b6540213",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "81f45561-974f-4e02-865c-4145fc8cb4aa",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "5a1aafbf-1b46-4827-9107-47c708956c40",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "71693897-a04f-43f6-839a-5a0248acb8ad",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "9f431439-02e4-4b95-b0ad-3fc9be444f2e",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "19f9f385-f5eb-42dc-b037-08924cba6907",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "a306ec2a-0c6b-4f58-a879-189aa9f68e2d",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "1f04d24e-3bf1-417e-81f3-1201961f0335",
+            "name": "OpenLines",
+            "data_type": "INTEGER",
+            "kpi_type": "OpenLines",
+            "dynamic": true
+          }
+        ],
+        "dynamic": true
+      },
+      {
+        "id": "b7913b79-7847-4ba5-96b5-e349bc049a09",
+        "data_type": "COLLECTION",
+        "kpi_type": "Queue",
+        "kpi_structure": [
+          {
+            "id": "27c34bd8-6761-4908-8bee-976aeee0fda3",
+            "name": "ForwardExits",
+            "data_type": "COUNT",
+            "kpi_type": "ForwardExits",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "aa6a0b12-9b47-4a61-b946-6c16233999ae",
+            "name": "PredictedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "PredictedWaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "2aba2de1-506d-4afb-b761-3a676ca1b2a9",
+            "name": "WaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "WaitingTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "5f97c322-af83-4372-bb64-c282211b176c",
+            "name": "QueueLength",
+            "data_type": "FILL_LEVEL",
+            "kpi_type": "QueueLength",
+            "unit": "PAX",
+            "has_history": true
+          },
+          {
+            "id": "f89e269e-a8b6-4ec3-88e6-998ba75fd0ef",
+            "name": "QueueName",
+            "data_type": "STRING",
+            "kpi_type": "QueueName"
+          },
+          {
+            "id": "3495587b-16ef-49cc-b505-73af9f5dc526",
+            "name": "DisplayedWaitingTime",
+            "data_type": "DURATION",
+            "kpi_type": "DisplayedWaitingTime",
+            "unit": "s"
+          },
+          {
+            "id": "322d7fff-33cf-4089-9de1-fe3f89fe13b5",
+            "name": "QueueId",
+            "data_type": "INTEGER",
+            "kpi_type": "QueueId",
+            "has_history": true
+          },
+          {
+            "id": "27cb9901-745b-4bf8-a753-d3133c0a0213",
+            "name": "Overflow",
+            "data_type": "STRING",
+            "kpi_type": "Overflow"
+          },
+          {
+            "id": "6202e7d1-a557-467c-b85a-d1165adf50c2",
+            "name": "ProcessTime",
+            "data_type": "DURATION",
+            "kpi_type": "ProcessTime",
+            "unit": "s",
+            "has_history": true
+          },
+          {
+            "id": "a814947f-f27c-41ab-a468-a4c32ed1f239",
+            "name": "IsOpen",
+            "data_type": "BOOLEAN",
+            "kpi_type": "IsOpen",
+            "unit": "b",
+            "has_history": true
+          },
+          {
+            "id": "cb1bd0eb-6712-4974-8cbe-246d4e344128",
+            "name": "OpenLines",
+            "data_type": "INTEGER",
+            "kpi_type": "OpenLines",
+            "dynamic": true
+          }
+        ],
+        "dynamic": true
+      }
+    ],
+    "has_history": true
+  },
+  "kpi_data": [
+    {
+      "from": "2022-03-30T07:28:00Z",
+      "to": "2022-03-30T07:29:00Z",
+      "values": {
+        "a26312b4-36a4-4b6d-8727-04d10cfdff7c": {},
+        "4ff8b2df-a151-4cf1-af3c-96206c930dbf": {},
+        "7f3308c5-d264-48a4-9c97-f1587b31c4e0": {
+          "duration_value": "0s"
+        },
+        "151ba04d-9868-4672-b591-ce9836bbc03c": {},
+        "bf7a41ce-9e8f-467c-a7ef-24f380c05db5": {},
+        "49db86f8-ac41-436a-b7d3-03c6d1f1312f": {
+          "duration_value": "0s"
+        },
+        "e0b90254-838d-4bd4-a8bb-5471bcef1401": {
+          "duration_value": "0s"
+        },
+        "9fc4f16e-ccfe-42f2-a606-c40cdb2a0794": {
+          "boolean_value": true
+        },
+        "bd20c87a-d601-4135-91d1-b24f4e4edd82": {},
+        "11fbfaa5-5dbb-490b-a766-ab60e238f28d": {
+          "duration_value": "77s"
+        },
+        "d8adb078-1c0d-44d1-bf3b-d2d56391c935": {
+          "integer_value": 3
+        },
+        "2e0f022d-8471-460d-afd2-9f3e8607c8ef": {},
+        "2474d8d9-71ee-41c3-a42b-914c28c9f686": {
+          "duration_value": "8s"
+        },
+        "f347a9ef-bfca-46a7-9755-792060b91999": {
+          "duration_value": "0s"
+        },
+        "33af53bc-9f47-465f-a55c-d41acd56612e": {
+          "boolean_value": true
+        },
+        "fdc9e339-4717-46c2-afc5-27b5343c720f": {
+          "integer_value": 1
+        },
+        "f7296a61-0669-457a-89d0-1e5f59d1df82": {
+          "duration_value": "77s"
+        },
+        "1f6d9f33-170f-4fa6-8682-918721e5294d": {
+          "integer_value": 3
+        },
+        "bdcdea26-aecb-450a-b862-db699d98da8a": {},
+        "f5b8c16a-9476-4d08-bf02-afd5c4e3f426": {
+          "duration_value": "8s"
+        },
+        "dbdbde6d-b845-42f0-ac4b-1d7cab7f1659": {
+          "duration_value": "0s"
+        },
+        "75c76678-0f47-404e-82f4-653c73ace720": {
+          "boolean_value": true
+        },
+        "01bb7731-b346-4856-a253-8c65043c7cf3": {
+          "integer_value": 2
+        },
+        "60320f62-e565-4545-a980-f7cc20115426": {
+          "duration_value": "49s"
+        },
+        "1037bb70-663e-435d-8454-155c1e6a787a": {
+          "integer_value": 1
+        },
+        "6819066f-e672-4330-8ceb-bf237de4c40a": {
+          "integer_value": 5
+        },
+        "b5834045-0069-4f52-a9dd-790d46647760": {
+          "duration_value": "275s"
+        },
+        "4b1c9b5e-d670-44c7-8f7d-177757d1944f": {
+          "duration_value": "75s"
+        },
+        "1624ae14-899a-4ecc-b262-35feaf315b35": {
+          "boolean_value": true
+        },
+        "3990a0ba-5602-4a1b-b069-9390de29b411": {
+          "integer_value": 2
+        },
+        "a0c4f12c-70f2-4417-9213-d931eced9281": {
+          "duration_value": "49s"
+        },
+        "e1bc6630-1184-4cfe-a836-1aac56ccf10c": {
+          "integer_value": 1
+        },
+        "075d54a2-386b-4d17-bf7a-35a215ba75fd": {
+          "integer_value": 5
+        },
+        "d6f79e0e-2df9-4868-9dcd-662129a1a003": {
+          "duration_value": "275s"
+        },
+        "468fa3af-ccd5-4795-a763-aa5c45483d71": {
+          "duration_value": "75s"
+        },
+        "4d6fd74f-42f4-4a6a-9ce4-7e508539f834": {
+          "boolean_value": true
+        },
+        "c1296b93-db53-453b-a9b4-887cc3b241c9": {
+          "integer_value": 3
+        },
+        "1c0dd317-4e0d-4e08-88e6-1982bf1a089d": {
+          "duration_value": "109s"
+        },
+        "4950b2f9-4d7a-460f-9096-8711e99a4098": {
+          "integer_value": 2
+        },
+        "0993cc22-63fe-45c4-b19c-fb190f528bed": {
+          "integer_value": 1
+        },
+        "77910036-e6d8-4853-aed9-266cc9c5aa6a": {
+          "duration_value": "15s"
+        },
+        "2f6d37e5-a3e9-46bc-a5a0-871f63204373": {
+          "duration_value": "85s"
+        },
+        "0a031b9b-73f8-4904-8a8f-30fc20aecc11": {
+          "boolean_value": true
+        },
+        "0bda0df3-48bd-4993-8131-2b928d706a02": {
+          "integer_value": 1
+        },
+        "414924ed-5168-4ab8-85dc-edce5151698e": {
+          "duration_value": "49s"
+        },
+        "4bb33794-3429-4a37-a4bc-3d14db80f56a": {
+          "integer_value": 1
+        },
+        "90fa8bb7-29d1-4224-b6cd-41def5f9410a": {
+          "integer_value": 5
+        },
+        "a0ca586d-d783-4fd8-974e-070558b5a777": {
+          "duration_value": "275s"
+        },
+        "2ff4781d-76d2-48e7-9876-963a5f9c4fb2": {
+          "duration_value": "75s"
+        },
+        "1e558f43-8859-4a93-9215-f4197629e30b": {
+          "boolean_value": true
+        },
+        "970a9398-5a36-4191-b649-8ecdf31e656d": {},
+        "658849fe-651c-4c7d-acf6-ab7b986e9270": {
+          "duration_value": "49s"
+        },
+        "b7653675-40c9-432c-82cb-2dce2c5c900c": {
+          "integer_value": 1
+        },
+        "ea5d48cd-4bc8-4f65-8b3b-9961118147d6": {
+          "integer_value": 5
+        },
+        "daca0bb1-4965-4d16-8efa-b6ff80ee8719": {
+          "duration_value": "275s"
+        },
+        "82803461-f66f-4ae3-a535-86f3244f37c5": {
+          "duration_value": "75s"
+        },
+        "30f2ac22-fc79-491b-b9d7-92939ef5f971": {
+          "boolean_value": true
+        },
+        "a3e34e6a-f314-4f62-99fb-9839e31f5da8": {},
+        "58dd6f6b-8ed7-48d3-a33e-c76d1c24b7db": {
+          "duration_value": "49s"
+        },
+        "bfde9795-812a-4380-884f-ea9a51c9d685": {
+          "integer_value": 1
+        },
+        "32f55a86-bb80-44b6-bdce-4289e3b77741": {
+          "integer_value": 5
+        },
+        "11b49871-7a2b-4768-bd55-1abaeb40593e": {
+          "duration_value": "275s"
+        },
+        "c74c6643-24c8-475b-8f74-ad5eb0d16029": {
+          "duration_value": "75s"
+        },
+        "40d5744c-f01a-4406-89ca-64aa6c2bac92": {},
+        "4db781b0-70d3-4cb3-8c9c-d0a55bd6af17": {},
+        "f1b2bbbd-18f7-49cc-8cca-ce3ea7974c84": {
+          "duration_value": "0s"
+        },
+        "ac9c31bf-af81-4d83-9c6a-3117b68d9fa6": {},
+        "1b1b5e5c-b938-4701-925e-258a3c6cef56": {},
+        "aa3cdafb-5358-4c8d-a03b-74a540d73724": {
+          "duration_value": "0s"
+        },
+        "afea5f57-4305-4fde-b3d8-c66fa7231f75": {
+          "duration_value": "0s"
+        },
+        "56899bed-4325-48b2-a567-58652e90cf2f": {},
+        "bd6f93e4-42a5-40a9-a08e-8c35a28af7ce": {},
+        "29642c19-2cac-43d4-92af-50cd91a62ac4": {
+          "duration_value": "0s"
+        },
+        "cf27a535-cdd8-4b61-8bab-ed2b17e269bd": {},
+        "8d3346c7-8d6d-4796-add1-43cce3e025fc": {},
+        "2d015e16-99d6-447d-95d3-5097aa398bfe": {
+          "duration_value": "0s"
+        },
+        "995563f7-d10d-4fcf-a1aa-1c9f7197bb34": {
+          "duration_value": "0s"
+        },
+        "4aa15879-716a-460a-9c0b-c40a753729b5": {
+          "boolean_value": true
+        },
+        "41aeca88-10ca-481a-a775-3e0652c29f08": {},
+        "058ad167-590c-43b4-9fab-c3ac6b2e3a9f": {
+          "duration_value": "49s"
+        },
+        "0a473019-7718-4fb8-b53f-4f91918b757c": {
+          "integer_value": 1
+        },
+        "a2d788f7-2ded-4e7e-bb75-235c01223333": {
+          "integer_value": 5
+        },
+        "73ac84b7-c4ba-49f2-9fb0-f3a642358ebf": {
+          "duration_value": "275s"
+        },
+        "c2b68f7f-a6aa-4465-a008-7ea70ce88bf4": {
+          "duration_value": "75s"
+        },
+        "807adec6-0798-44f6-9804-7ff880cb7f9d": {},
+        "7e1760e8-6689-4f06-9d81-cee9e5913343": {},
+        "e76da730-53e0-44e1-8b33-11570fea1df0": {
+          "duration_value": "0s"
+        },
+        "1ad2652e-86c0-49bb-9ccd-192650308013": {},
+        "30b19988-37a9-4302-99e7-4d26e5f896df": {},
+        "ec0a8a65-a271-4d19-9037-6354cdb31df1": {
+          "duration_value": "0s"
+        },
+        "1f7084ef-5dfc-403f-a2c6-378de426a914": {
+          "duration_value": "0s"
+        },
+        "fc7f9870-a261-4efc-a857-794cced9bc4e": {},
+        "71059c61-fd02-433c-ba4f-df46dfa6a8bf": {},
+        "41c1d4bd-0d0d-49eb-9c21-e9577023bd33": {
+          "duration_value": "0s"
+        },
+        "aff85602-32da-4120-93e2-f08a352f70c9": {},
+        "82906fa8-c81d-4c28-b208-2a0ae69044b8": {},
+        "478559d4-969b-4fc2-b0bf-c9a2519431df": {
+          "duration_value": "0s"
+        },
+        "68dcbd0a-cb00-41e2-bf62-3ee7d3a91f79": {
+          "duration_value": "0s"
+        },
+        "5d8bef65-b42b-49d3-9373-79c95599ff40": {},
+        "6d543a03-9eb8-4f0b-abc3-89aa6e511cea": {},
+        "1763c9ca-a5c7-4e08-a58f-7b9ddd8977f1": {
+          "duration_value": "0s"
+        },
+        "2b9baa73-1e0f-40ab-9b18-6d0c15e8e81b": {},
+        "4caff0db-51a1-4196-ad0f-d67e2b3f795c": {},
+        "7eee8f90-fe5c-4617-9779-6ff965725e54": {
+          "duration_value": "0s"
+        },
+        "3edf2b62-a257-4fad-8e97-fce5bd5fcffb": {
+          "duration_value": "0s"
+        },
+        "7320b55f-37b6-4266-8910-8a0d1429cd95": {},
+        "47136761-d1f1-4c49-b9ad-a8eb73ff4b39": {},
+        "defb048d-c312-4467-a4c6-e1d5596bffe1": {
+          "duration_value": "0s"
+        },
+        "9a1644d3-59a2-48a9-8c05-51f6c3e52cbd": {},
+        "0f9f4e02-ea64-4eed-b385-9b1e75e28776": {},
+        "8f4194f3-a671-4973-910d-3c4a35184b4d": {
+          "duration_value": "0s"
+        },
+        "f76ba899-92c3-4687-a68f-ce11ff3015d2": {
+          "duration_value": "0s"
+        },
+        "b177886d-0ad1-4c3e-8365-801b531b868b": {},
+        "e342a141-4d45-46ae-82ba-d92368346b2e": {},
+        "107f3397-eef6-4b8e-b407-17bebf792261": {
+          "duration_value": "0s"
+        },
+        "6cb416e0-ae30-44e3-b129-2fd8c8b66456": {},
+        "5f4babcb-83e8-40fb-9086-c51787016f31": {},
+        "8d657052-220f-4311-8c49-20b270edb40f": {
+          "duration_value": "0s"
+        },
+        "08173a56-2646-4400-9665-583245addf0d": {
+          "duration_value": "0s"
+        },
+        "1961a90a-3e66-4102-aa67-98ae483d5942": {},
+        "3f2f83ba-a793-48c1-a266-e694173f378c": {},
+        "533855cc-d6b9-4266-a43e-1dc8bab4ac21": {
+          "duration_value": "0s"
+        },
+        "6c52793e-ef5d-4b7d-8f7a-f509cf1bb049": {},
+        "00ccc91b-58bb-4c6d-859b-83370ee36e01": {},
+        "3e41e163-eab7-4c1a-90f5-fea415969251": {
+          "duration_value": "0s"
+        },
+        "cdfefdc6-a84e-4e31-9c31-9003049b92c3": {
+          "duration_value": "0s"
+        },
+        "4bd7d758-6f08-47ea-a59b-6e21419bca37": {},
+        "d88abab9-f23b-455d-9208-fee50393eb4a": {},
+        "b132b15d-073e-4516-b249-a8b4b5d2cc5a": {
+          "duration_value": "0s"
+        },
+        "250bfe82-db99-4406-aa81-f2c22aa6be6f": {},
+        "ff47e992-b4f1-438e-9d11-6ac634a41e27": {},
+        "3477f128-16c1-4df5-885a-f371468075cd": {
+          "duration_value": "0s"
+        },
+        "ac08d118-e40b-4666-b216-26fb9da0c05c": {
+          "duration_value": "0s"
+        },
+        "11dcc044-e474-4926-ac2c-6fe892725c53": {},
+        "86b6c3dd-3bc0-42d6-a36a-6a8388537a12": {},
+        "836fa541-3abb-4d56-9146-732e8dfebc94": {
+          "duration_value": "0s"
+        },
+        "2ed8aeb9-ab4f-4882-89b8-d56aed4279da": {},
+        "bda8cac0-439e-450c-b30a-5425b0952fcd": {},
+        "46829c6f-c1ad-42e9-92a4-98d2a4cbf8d1": {
+          "duration_value": "0s"
+        },
+        "f8d9dabb-4216-4e45-bca6-758415fa237d": {
+          "duration_value": "0s"
+        },
+        "01e7d96d-bd4d-407f-852a-31d5c07aca16": {},
+        "e2788abe-14bd-4b66-93ff-0c9cd41fe41b": {},
+        "169923b1-9fb4-49c0-8c99-f01b9990ea2e": {
+          "duration_value": "0s"
+        },
+        "de2f691f-c872-47ae-a3a3-a4d34b9668a5": {},
+        "42ed29c1-485b-4791-91bb-f3b0d645c6e3": {},
+        "1237efe0-befa-49b1-b6c0-16690a836f4f": {
+          "duration_value": "0s"
+        },
+        "389829c0-f981-4bb8-8cfe-e5b9a291fe59": {
+          "duration_value": "0s"
+        },
+        "a6107e2e-7dcf-4895-ae00-0214b09c5e1b": {},
+        "44cb63b4-acbe-4586-a644-b053c7c84af3": {},
+        "a2a80aeb-15c4-4784-a089-6013b3d04703": {
+          "duration_value": "0s"
+        },
+        "df2a5784-cc6c-4d7e-8ff1-7a60fcad9194": {},
+        "9b0f75da-397a-45b4-a137-ac621cc0df68": {},
+        "3b025873-dc6e-4a17-9aaa-b0da3662083f": {
+          "duration_value": "0s"
+        },
+        "fb73b622-b4b4-4b96-aaf4-68a271ff8b53": {
+          "duration_value": "0s"
+        },
+        "9a4b6241-87aa-44e7-8e43-e43934be1fc6": {},
+        "73515ae0-5362-42aa-9a52-2f5a3b3e9ed6": {},
+        "5af507b3-aa0d-4988-b1b7-6131bc518d99": {
+          "duration_value": "0s"
+        },
+        "4d442f98-772b-47e6-acbb-116f2e5216d0": {},
+        "4f788fda-cef3-4009-a7a5-126be705c322": {},
+        "b3f76bfa-2d66-4674-843c-a475c51d4422": {
+          "duration_value": "0s"
+        },
+        "fe78039e-ee64-4db0-8e8a-8e90e5027878": {
+          "duration_value": "0s"
+        },
+        "fe5b1579-0f1a-4a2b-a249-c9146cad2284": {},
+        "972b1765-0ce4-480b-937d-b5bc293caecb": {},
+        "0b90a36b-eed5-4518-b3c8-eef8c6714d4f": {
+          "duration_value": "0s"
+        },
+        "6ce477a7-4422-48c9-88ae-c779b512866f": {},
+        "fda08c09-094d-4a55-b2dd-7745fdb0ac32": {},
+        "a52fc8aa-8401-435e-90d0-a6a29c68e703": {
+          "duration_value": "0s"
+        },
+        "3f3250e7-a7b2-417e-a2ca-53726d455e2f": {
+          "duration_value": "0s"
+        },
+        "72deb545-bad1-4d4c-8ac9-d46ae13da24a": {},
+        "6be50247-5b1e-4f67-9417-b5657fb5a8cc": {},
+        "5df62259-5267-4231-9e68-7170296d5978": {
+          "duration_value": "0s"
+        },
+        "755b7c86-ff45-4485-8214-2a1d1dee3166": {},
+        "4312c4d6-1ca9-41d8-870b-6da7f802dcbf": {},
+        "dbee78ab-7f81-4bd4-8b62-de6f94750d91": {
+          "duration_value": "0s"
+        },
+        "96895870-a813-4a20-b7ca-7b1e4f0e249c": {
+          "duration_value": "0s"
+        },
+        "9dbf586e-b5c2-4f59-90c7-02a7bdc01679": {},
+        "9cf8f2ff-f906-4450-a269-792114bd496f": {},
+        "84e807e5-8a21-4033-9135-56b32c4e7ebc": {
+          "duration_value": "0s"
+        },
+        "3275763c-34dd-44dc-ac75-69e704c7fe71": {},
+        "dede008d-7f75-404a-ad34-9611cae2e072": {},
+        "e2ff520e-d0bb-497d-be31-01894e5a20e1": {
+          "duration_value": "0s"
+        },
+        "6ea14e22-9950-490a-bea7-c114bdfe2877": {
+          "duration_value": "0s"
+        },
+        "b6e9fe5d-c824-46fc-a171-bca94ca5d74d": {},
+        "085b1cb4-7b31-406d-85fa-94c26f1bf6f3": {},
+        "037a8db9-ce0e-437b-b0ba-509842477b6f": {
+          "duration_value": "0s"
+        },
+        "d564f482-f8c4-4237-b4ce-7f02b4400ede": {},
+        "137a7511-038a-419c-b555-4d242727afad": {},
+        "e6afeb3e-5882-46ca-94bc-4fe87788a579": {
+          "duration_value": "0s"
+        },
+        "006da257-e90b-4db3-9a30-62a33003fd2c": {
+          "duration_value": "0s"
+        },
+        "0b13fac9-ec99-4cfb-b68e-b3850c856a30": {},
+        "c76946f1-af2d-4e22-8e17-68e83d8bd9e0": {},
+        "52dcf1be-94f6-489a-a514-676d7595a500": {
+          "duration_value": "0s"
+        },
+        "42d56d07-1eda-4e0c-af43-2f5fd8dab78b": {},
+        "63e98f89-2562-4daa-b7b5-efe62cfb0ab5": {},
+        "6a0ed827-5d17-41fa-8e9e-d11a9ae84336": {
+          "duration_value": "0s"
+        },
+        "cbb4ec07-251d-461d-80e1-c66edd7a199e": {
+          "duration_value": "0s"
+        },
+        "4a457c3f-4b1d-4cd8-b11c-3133da754721": {},
+        "6750d286-66c9-4a9d-bba4-74a2646314fe": {},
+        "2a4ec030-9793-47a4-8b04-680bfff027c2": {
+          "duration_value": "0s"
+        },
+        "61c75a8d-adbb-4534-b5d5-47bc0fe292a7": {},
+        "d8ab8706-c8e4-454c-96ca-af848e753826": {},
+        "f7ee2708-43d4-431e-ae97-c557e4b89642": {
+          "duration_value": "0s"
+        },
+        "4a2485c6-b1bb-486e-9ed2-69421516dfe7": {
+          "duration_value": "0s"
+        },
+        "909ed76b-5f7d-417c-bec5-3bd168224d1c": {
+          "boolean_value": true
+        },
+        "7bdd1d8b-7323-462b-be83-823afb1d1e6f": {
+          "integer_value": 1
+        },
+        "1169cac2-8bf2-4ad3-8061-185d0a2a6f3b": {
+          "duration_value": "0s"
+        },
+        "8470782e-c13e-4352-9cb5-bf3a28b9ae20": {
+          "integer_value": 7
+        },
+        "c8e899db-ed6c-408b-9426-f238e6fef47a": {
+          "integer_value": 2
+        },
+        "45204b88-11d3-4a5e-be00-f2187d3dd6ea": {
+          "duration_value": "4s"
+        },
+        "bbb77be4-9aa2-4adc-a6e3-8862e307384b": {
+          "duration_value": "112s"
+        },
+        "47648c7b-b35e-4e71-9e10-b790c6f0a834": {},
+        "724e41aa-cd05-489d-95ae-da15a2abe935": {},
+        "7a3abdd8-be8a-46be-a273-f442645645ba": {
+          "duration_value": "0s"
+        },
+        "dc565cea-7c63-4585-ba50-f3d430d8ba84": {},
+        "c5e97585-6d6c-49a1-91ce-8a3f1fec50a6": {},
+        "d77b3621-5638-49e6-9f4d-f4d890c12b40": {
+          "duration_value": "0s"
+        },
+        "dfc07a72-95ab-451d-be9e-518d35a680e1": {
+          "duration_value": "0s"
+        },
+        "dccc5938-df1b-4aa9-9c83-7ae3a76ba74e": {},
+        "9d827495-ab09-4035-9c62-27d3653bea90": {},
+        "f0a817f2-f5f1-4b38-8ab6-da2442a1e78f": {
+          "duration_value": "0s"
+        },
+        "4440aa27-f55c-4770-8176-a63de1a9cde1": {},
+        "53380568-a532-47c9-97ea-754e085b3392": {},
+        "e0fe8201-ffb4-4e91-a44e-8091834f7121": {
+          "duration_value": "0s"
+        },
+        "18e8b3c8-9f84-438f-a4c4-4f1523237067": {
+          "duration_value": "0s"
+        },
+        "49096f12-a0b4-4b75-ae78-9b0458580a71": {
+          "boolean_value": true
+        },
+        "8149c076-1e8f-4978-b65c-4bb41bf2e3fd": {},
+        "ea10caeb-a8ce-486c-9962-01273e0bc534": {
+          "duration_value": "0s"
+        },
+        "fc82b23a-237e-4bee-9b5e-76f2979a5485": {
+          "integer_value": 11
+        },
+        "b213a201-f528-41a8-a6d9-addef5010440": {
+          "integer_value": 1
+        },
+        "3197301c-91a2-4483-ab6e-5b919d7f7b0d": {
+          "duration_value": "0s"
+        },
+        "bc620e47-37b9-4b06-ad71-2cd102d8d9fe": {
+          "duration_value": "20s"
+        },
+        "21241f50-fae1-4963-8b3f-7188be8e6438": {},
+        "5bd53d0f-150a-44ac-bf20-b8ed9c9f9b95": {},
+        "74236f98-0a4b-4595-92ab-51cee689e8df": {
+          "duration_value": "0s"
+        },
+        "7d850371-ca6c-434b-be6a-dca6e227bbd1": {},
+        "9bd790ba-2311-4bba-97e5-231490a5689d": {},
+        "97eaf49b-cc7a-488a-aac4-2fb00c2f53ec": {
+          "duration_value": "0s"
+        },
+        "cfc0f25c-eeb5-4a8e-ab02-f593767b06e8": {
+          "duration_value": "0s"
+        },
+        "f48ce7c4-6fe0-4592-925d-360aa49fbee0": {},
+        "b907413e-6233-4fa0-8ccb-f6783f50c23e": {},
+        "d4dbbbdc-ac1c-4eec-9364-058209b4c0db": {
+          "duration_value": "0s"
+        },
+        "e7368d63-3340-4fdf-aaea-98e0bef4c4d6": {},
+        "e7d6c5ab-cc70-460f-861c-5343f54985aa": {},
+        "43db4c76-8f37-4f3f-85af-9372a4ebe479": {
+          "duration_value": "0s"
+        },
+        "e0819ef3-9537-44bf-93c2-ddc878724c7a": {
+          "duration_value": "0s"
+        },
+        "ebeed868-4f6b-43f7-8cfc-b2f19c7f1d59": {},
+        "bb3c0862-3ec2-4973-b6af-84fe08c806f3": {},
+        "02f56057-6540-462e-b96b-1a222d85a1e1": {
+          "duration_value": "0s"
+        },
+        "a67746b2-71f2-4370-944c-48ae89a2afae": {},
+        "0bd4d2d1-d8d1-4963-a535-d8551cb96405": {},
+        "dadfe760-8aa3-46ba-b716-059c34b2db53": {
+          "duration_value": "0s"
+        },
+        "a862b6e1-f7e7-4ed6-a8dc-a5f4b1522a23": {
+          "duration_value": "0s"
+        },
+        "c757094d-b7a2-4fb8-9740-be92b68dabdb": {
+          "boolean_value": true
+        },
+        "9cf1757d-7f7c-4e20-b1e5-8d027b98e635": {},
+        "ae4a860f-fb4e-4c0a-bd45-8ddd33a6d2a3": {
+          "duration_value": "0s"
+        },
+        "d2e12593-ce36-4e2a-a128-75f05c4fd31f": {
+          "integer_value": 9
+        },
+        "15113385-a182-48ea-8593-e87cba23b9e5": {},
+        "cc1e5851-817e-439f-b2c7-aa86c3c9a096": {
+          "duration_value": "0s"
+        },
+        "d59d0cb8-ad94-4cf9-96c6-2f175f576e13": {
+          "duration_value": "0s"
+        },
+        "26726896-3703-42ef-9af1-d583b809dfbc": {
+          "boolean_value": true
+        },
+        "d8a884c4-0370-4fd3-ba51-dc3de5838151": {},
+        "48fbfa60-d3f9-4a75-9a90-578c71c2874f": {
+          "duration_value": "101s"
+        },
+        "8f5c974e-40ff-411e-b75a-fa6471e3fd88": {
+          "integer_value": 10
+        },
+        "b61fd79b-132d-469d-b612-6991e147b632": {
+          "integer_value": 2
+        },
+        "c29e040f-a2e3-4638-9255-c7e1136db248": {
+          "duration_value": "70s"
+        },
+        "f986a001-5615-4887-b9e2-316e4ade8ebc": {
+          "duration_value": "45s"
+        },
+        "da298fab-4225-4ac6-bcfb-9491d0ad88c5": {
+          "boolean_value": true
+        },
+        "d8bf6982-32f2-4681-a4e1-27fd174c052f": {},
+        "8f6d5d4f-f743-4529-8488-dd6ebddcde38": {
+          "duration_value": "101s"
+        },
+        "846b9188-333b-4b05-aee9-530b06c6c621": {
+          "integer_value": 10
+        },
+        "73deab6d-e4c8-4c08-ac83-ec8b14c14519": {
+          "integer_value": 2
+        },
+        "dcf7b372-f9a4-4727-92c9-73bb0e975e4e": {
+          "duration_value": "70s"
+        },
+        "6c276405-59ba-4162-95f7-02c67ece0bcd": {
+          "duration_value": "45s"
+        },
+        "66217a32-52a6-4984-a5f3-fdc238783d8f": {
+          "boolean_value": true
+        },
+        "af51ea9a-6ea0-4444-965f-6fd5e06db0d1": {},
+        "6a3831dd-8f16-403b-bc8a-81f7e0e44230": {
+          "duration_value": "101s"
+        },
+        "c41064fa-86bb-4dfd-9472-0a043a1b9b82": {
+          "integer_value": 10
+        },
+        "108ab81d-4dfa-4a37-aa88-04c10e32d948": {
+          "integer_value": 2
+        },
+        "5eda7280-58ea-4ee6-83e8-6128d0610daa": {
+          "duration_value": "70s"
+        },
+        "745c2bea-7d06-4801-a25a-ce5bd5e74219": {
+          "duration_value": "45s"
+        },
+        "6c1b085d-3633-4061-9408-d8915c042c19": {
+          "boolean_value": true
+        },
+        "e4dfa2f3-f408-4a2d-ac78-c490a6719ff7": {},
+        "6b7b43a7-a2af-47fd-893a-b7b75e895cb0": {
+          "duration_value": "101s"
+        },
+        "58041d3f-50bb-4978-b288-6a628d135d2e": {
+          "integer_value": 10
+        },
+        "18ca2d98-4d76-428f-9cde-e357a051c2ce": {
+          "integer_value": 2
+        },
+        "0e16609c-6142-4bb1-9311-cbc11f3826a4": {
+          "duration_value": "70s"
+        },
+        "e5f23ad2-d329-4173-9270-a8e0c3e2ca2f": {
+          "duration_value": "45s"
+        },
+        "3469fdef-0ff4-4ffa-92fd-a34ede204a90": {},
+        "90c5e0e8-6035-418a-81cd-83d8b0af5fc8": {},
+        "24379ac4-a4d6-41f3-aad0-1bd7879862b1": {
+          "duration_value": "0s"
+        },
+        "7981d48e-f2d6-4698-a425-e20c7d4b72ad": {},
+        "28ea03fe-e06c-4660-b5da-0ede0cbaa5e4": {},
+        "a88d5637-c1b0-4dc5-9bb5-d1e90efdc425": {
+          "duration_value": "0s"
+        },
+        "678db8e6-cd88-4f0e-a7ba-d79af0e4ad48": {
+          "duration_value": "0s"
+        },
+        "c6c46853-733d-4cc0-b65c-acdf64482c57": {},
+        "af6f234f-6b9c-41e1-b137-ddd264ef085f": {},
+        "3bb87381-2c4b-449a-815a-57e8ce32bd77": {
+          "duration_value": "0s"
+        },
+        "a0176659-53d9-4cbb-965f-1328f4586cbe": {},
+        "b5a906fd-c33f-43eb-b66d-6b3c8525d570": {},
+        "40bfd1d0-2595-4e84-bd3e-ca2a23b06742": {
+          "duration_value": "0s"
+        },
+        "1afe18fb-6387-4c3a-a2c2-f363aefdb523": {
+          "duration_value": "0s"
+        },
+        "0183fef3-6d0f-4d0b-ad9f-ca30e282c50d": {},
+        "1dc004aa-f288-47c8-a901-19855cd1c07b": {},
+        "d5571954-b902-4526-8090-89ca8a7f8ad0": {
+          "duration_value": "0s"
+        },
+        "e4f2b071-6b5d-48c8-ab3f-c5f76dd6d86f": {},
+        "524b2361-c94f-436e-8c75-318c62725f92": {},
+        "cd2c7a92-a194-432b-adce-4fea647c3039": {
+          "duration_value": "0s"
+        },
+        "09f910fe-37fe-47ae-9061-6fc54063d9c4": {
+          "duration_value": "0s"
+        },
+        "9a4abebb-65b5-4b27-a3d7-4c1f8029f94d": {},
+        "57831091-5580-4095-a260-7f7a840b5533": {},
+        "2faad0e8-019c-4695-95d4-8dd1c165c434": {
+          "duration_value": "0s"
+        },
+        "53a36a1c-5772-400c-b529-c11831008a8a": {},
+        "888bc063-30da-4284-b011-8ae07fa2c2fe": {},
+        "d723acac-af81-4544-a926-b6695f1e00bf": {
+          "duration_value": "0s"
+        },
+        "db3b9d8d-0a87-43e4-ad03-4743788fe103": {
+          "duration_value": "0s"
+        },
+        "f38dd3aa-5292-4b97-8465-e6894b66948d": {},
+        "866a7adf-9fea-4de5-825a-26c9d7daedd7": {},
+        "3d1567a3-91db-4962-a57d-851a939428aa": {
+          "duration_value": "0s"
+        },
+        "1a01401d-c793-40fe-b3d2-baf82aeaff8e": {},
+        "68e55a49-7735-45f0-9701-04b8dcdca635": {},
+        "c89c60a1-4326-4fed-9b95-20ab33a6cd1b": {
+          "duration_value": "0s"
+        },
+        "5921f039-c99a-4a3b-b38a-380fe33da3ab": {
+          "duration_value": "0s"
+        },
+        "249ce473-4ac3-4a30-9649-099202599ed1": {},
+        "49627c39-e379-420a-b115-6fa720908478": {
+          "integer_value": 1
+        },
+        "9245ae3a-3b61-4b3b-83a5-efe3e9b2353a": {
+          "duration_value": "20s"
+        },
+        "bd13622a-4316-40e7-95c7-41a8ae9fc18c": {
+          "duration_value": "0s"
+        },
+        "b3e8abc7-15a5-4df7-b00d-c687a17b870a": {
+          "integer_value": 11
+        },
+        "ea525e3a-49b5-437d-90f2-d86d23f51138": {
+          "duration_value": "0s"
+        },
+        "176546cb-ffa8-42ee-8549-2e6e47b57e49": {
+          "boolean_value": true
+        },
+        "52bd7bc9-a0cb-402e-9379-eba55279e429": {
+          "integer_value": 1
+        },
+        "21471299-4dea-4a47-8684-9dc3c9a4153e": {
+          "duration_value": "275s"
+        },
+        "2be57aca-dc67-404a-8b23-25f3b77e3ba8": {
+          "integer_value": 2
+        },
+        "89e2ce41-3103-4f66-aa65-ac2f936e759d": {
+          "integer_value": 1
+        },
+        "b3af0785-8984-4b60-a9de-8653a155fa88": {
+          "duration_value": "75s"
+        },
+        "e2d967e8-ea56-4185-8914-14bf5a836343": {
+          "duration_value": "49s"
+        },
+        "4001c14b-e98f-4b00-a95d-d01b2e6a951a": {
+          "integer_value": 5
+        },
+        "e2e9d859-d315-457a-9a9b-26696971bbf8": {
+          "boolean_value": true
+        },
+        "2a99c511-f65c-4c69-9db5-1e6fd9758050": {
+          "integer_value": 6
+        },
+        "0523848f-eac7-4e0e-b8a9-c5d8250dd7d2": {
+          "integer_value": 3
+        },
+        "4092a2c5-106a-4b8c-bf44-e8d87cf106c1": {
+          "integer_value": 1
+        },
+        "857d8b7c-b35a-40ac-82d3-ba327c3e3a8b": {
+          "duration_value": "109s"
+        },
+        "eff6a2c7-f9ec-4922-8812-8d36b6972b4b": {
+          "duration_value": "85s"
+        },
+        "31b0116c-f5d8-43d2-9c0b-864a6c7d7c59": {
+          "integer_value": 2
+        },
+        "dbd50cb6-26ef-4a6f-a27a-e63b5ea6289c": {
+          "boolean_value": true
+        },
+        "15918b02-98da-4706-a714-cb027a302ede": {
+          "duration_value": "15s"
+        },
+        "30ecdffc-5529-4ed8-86ba-93966416b6cc": {
+          "integer_value": 1
+        },
+        "74e361bb-07f3-4f6d-b501-138d6a1f66eb": {
+          "boolean_value": true
+        },
+        "16d43694-dc9c-452f-bfd7-faef8c1035e0": {},
+        "cc0d7161-276a-4466-ac2b-32e41e607cac": {
+          "integer_value": 3
+        },
+        "479eba7e-98e5-45df-a054-2e3275cade0a": {
+          "duration_value": "0s"
+        },
+        "5ec639f9-8a60-4b6c-b6c8-9e22a11e3a00": {
+          "duration_value": "77s"
+        },
+        "dae5c6fe-87be-4583-8ac9-c45c30b9cd13": {
+          "duration_value": "8s"
+        },
+        "0f1a8485-c49b-4761-95d1-7bd577499a73": {},
+        "93400659-0602-4828-bf31-10b103c82ad0": {
+          "integer_value": 2
+        },
+        "c9fc5a52-fc17-4368-8d11-6cfe73e7aa6d": {
+          "integer_value": 7
+        },
+        "1c5dd5fb-ff98-4842-ac34-de5f39e5a9d3": {
+          "boolean_value": true
+        },
+        "832a6bca-92c5-4394-a20b-3cffaa430d55": {
+          "duration_value": "112s"
+        },
+        "5521edee-a6ee-4c46-b146-bb3e21826a01": {
+          "integer_value": 2
+        },
+        "b75bfc7f-51c3-4288-91f6-948f3285469f": {
+          "duration_value": "0s"
+        },
+        "b6453639-6b09-4353-867b-06c44f629c83": {
+          "duration_value": "4s"
+        },
+        "7a578be4-86da-408f-95c0-e76c721c9485": {
+          "integer_value": 1
+        },
+        "5fa11cc9-cd45-4962-99b9-953cc1b1ce57": {
+          "integer_value": 1
+        },
+        "95941098-4aa7-4142-90b4-e2283da41527": {},
+        "b3245bee-b191-491d-ba49-6e41b6540213": {
+          "duration_value": "0s"
+        },
+        "5a1aafbf-1b46-4827-9107-47c708956c40": {
+          "boolean_value": true
+        },
+        "71693897-a04f-43f6-839a-5a0248acb8ad": {
+          "duration_value": "0s"
+        },
+        "9f431439-02e4-4b95-b0ad-3fc9be444f2e": {
+          "integer_value": 9
+        },
+        "19f9f385-f5eb-42dc-b037-08924cba6907": {
+          "duration_value": "0s"
+        },
+        "a306ec2a-0c6b-4f58-a879-189aa9f68e2d": {},
+        "1f04d24e-3bf1-417e-81f3-1201961f0335": {
+          "integer_value": 1
+        },
+        "27c34bd8-6761-4908-8bee-976aeee0fda3": {},
+        "aa6a0b12-9b47-4a61-b946-6c16233999ae": {
+          "duration_value": "45s"
+        },
+        "2aba2de1-506d-4afb-b761-3a676ca1b2a9": {
+          "duration_value": "70s"
+        },
+        "5f97c322-af83-4372-bb64-c282211b176c": {
+          "integer_value": 2
+        },
+        "322d7fff-33cf-4089-9de1-fe3f89fe13b5": {
+          "integer_value": 10
+        },
+        "6202e7d1-a557-467c-b85a-d1165adf50c2": {
+          "duration_value": "101s"
+        },
+        "a814947f-f27c-41ab-a468-a4c32ed1f239": {
+          "boolean_value": true
+        },
+        "cb1bd0eb-6712-4974-8cbe-246d4e344128": {
+          "integer_value": 4
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "timezone": {
+      "location": "Europe/Berlin",
+      "offset": 120
+    },
+    "device_type": "IBEX"
+  }
+}
