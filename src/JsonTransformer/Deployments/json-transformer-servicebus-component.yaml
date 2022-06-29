@@ -2,7 +2,7 @@
 kind: Component
 metadata:
   name: json-transformer-servicebus
-  namespace: iot-hub-gateway
+  namespace: json-transformer
 spec:
   type: pubsub.azure.servicebus
   version: v1

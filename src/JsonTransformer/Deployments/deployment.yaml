@@ -2,22 +2,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: gateway-translator-sb-deployment
-  namespace: iot-hub-gateway
+  name: json-transformer-sb-deployment
+  namespace: json-transformer
   labels:
-    app: gateway-translator-sb
+    app: json-transformer-sb
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: gateway-translator-sb
+      app: json-transformer-sb
   template:
     metadata:
       labels:
-        app: gateway-translator-sb
+        app: json-transformer-sb
       annotations:
         dapr.io/enabled: "true"
-        dapr.io/app-id: "gateway-translator"
+        dapr.io/app-id: "json-transformer"
         dapr.io/app-port: "80"
         dapr.io/config: "tracing"
         dapr.io/sidecar-cpu-limit: 300m
@@ -26,10 +26,10 @@ spec:
         dapr.io/sidecar-memory-request: 250Mi
     spec:
       containers:
-      - name: gateway-translator-sb
-        # image: REPLACE.azurecr.io/iothub/gateway-translator:latest
+      - name: json-transformer-sb
+        # image: REPLACE.azurecr.io/iothub/json-transformer:latest
         # imagePullPolicy: Always
-        image: REPLACE.azurecr.io/iothub/gateway-translator:REPLACE
+        image: REPLACE.azurecr.io/iothub/json-transformer:REPLACE
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
@@ -38,7 +38,7 @@ spec:
           value: v2.0
         envFrom:
         - secretRef:
-            name: gateway-translator
+            name: json-transformer
         volumeMounts:
         - name: appsettings-volume
           mountPath: /app/Settings
@@ -71,4 +71,4 @@ spec:
       - name: appsettings-volume
         configMap:
           name: appsettings
-      serviceAccountName: gateway-translator-svc-act
+      serviceAccountName: json-transformer-svc-act
